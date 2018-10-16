@@ -1,0 +1,23 @@
+{
+  "name": "CarolMcDaniel",
+  "version": "1.0.0",
+  "description": "+ I like to knit.  + I am a grandmother of 3.  + My favorite quote is \"it is what is\"!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmcdaniel67/SavvyCoders-Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cmcdaniel67/SavvyCoders-Portfolio/issues"
+  },
+  "homepage": "https://github.com/cmcdaniel67/SavvyCoders-Portfolio#readme",
+  "devDependencies": {
+    "eslint": "^5.7.0"
+  }
+}
