@@ -54,3 +54,12 @@ h1 {
     i { 
     font-size: 300%;
   }
+  h3 {
+      font-family: cursive;
+  }
+    p {
+        color: crimson;
+    }
+    i {
+        font-size: 100;
+    }
