@@ -8,4 +8,4 @@
 
 ## Contact
 [Linkedin](http://Linkedin.com)
- ![profile photo](/img/profile.jpg)
+ ![profile photo](/IMG_0256.JPG)
