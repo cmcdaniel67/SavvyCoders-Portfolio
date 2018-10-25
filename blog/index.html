@@ -5,14 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Charmonman" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
     <link type="text/css" rel="stylesheet" href="../css/style.css"/>
 </head>
 <body>
-        <div class="navigation" id="blog-navigation">
+        <div class="navigation" id="navigation">
                 <ul>
                     <li><a href="../">Home</a></li>
-                    <li><a href="../projects">Projects</a></li>
+                    <li>
+                        <a href="/projects">Projects</a>
+                        <ul class="dropdown">
+                          <li><a href="#">First Project</a></li>
+                          <li><a href="#">Second Project</a></li>
+                          <li><a href="#">Third Project</a></li>
+                        </ul>
+                      </li>
                     <li>Blog</li>
                 </ul>
             </div>
@@ -28,6 +37,8 @@
             <div class="footer" id="blog-footer">
 
                 <ul>
+                    <li><a href="twitter.com"><i class="fab fa-twitter"></i></a></li> 
+                    <li><a href="envelope"><i class="fas fa-envelope"></i></a></li>
                     <li><a href="mailto:nannayar@gmail.com">Email Me!</a></li>
                 </ul>
 
