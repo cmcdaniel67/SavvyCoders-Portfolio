@@ -10,4 +10,7 @@ var checkName = function(){
 
 checkName(); // kicks off the name-checking the first time
 
-alert('Hello ' + name);
+// alert('Hello ' + name);
+
+var output = document.querySelector("#greeting");
+output.textContent = "Thanks for visiting, " + name +"."; 
