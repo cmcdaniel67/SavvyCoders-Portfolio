@@ -1,10 +1,13 @@
-export default `
+export default function Navigation(state) {
+return `
 <div class="navigation" id="navigation">
-        <ul>
-                <li><a>home</a></li>
-                <li><a href="/projects">projects</a></li>
-                <li><a href="/blog">blog</a></li>
-                <li><a href="/contact">contact</a></li>
+        <ul class="topspace"> 
+                <li><a id="home">Home</a></li>
+                <li><a href="/projects">Projects</a></li>
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="/contact">Contact</a></li>
     
             </ul>
       </div>`
+      
+}

@@ -1,7 +1,9 @@
-export default`
-<div class="header" id="header">
-            <div id='greeting'>      
-              </div>
+export default function Header(state) {
+  return `
+<div class="container header">
+<div id="greeting"></div>
+<h1>${state.title}</h1>
 
-            <h1>Carol McDaniel's SavvyCoders Portfolio</h1>
-      </div>`
+</div>
+`
+}
