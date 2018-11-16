@@ -1,10 +1,9 @@
-export default function Content (state) { 
-  return `<div class="content" id="content">
-<img src="~/img/profile.jpg" alt="profile image" id="profile-img">
-      <ul>
-      <li>I like to knit.</li>
-      <li>I am a grandmother of 3. </li>
-      <li>My favorite quote is "it is what is"!</li>
-  </ul>
-</div>`
-}
+import * as pages from "./pages";
+export default function(state) {
+    if (state.content){
+    return `${state.content}` 
+    } else return `
+<div class="container content-area">
+${pages[state.body]}
+    </div>
+` } 
