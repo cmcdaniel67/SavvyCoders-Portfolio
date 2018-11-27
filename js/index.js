@@ -5,9 +5,13 @@ import Navigation from "~/components/Navigation"
   import * as states from "../store"
   import { lowerCase } from "lodash";
   import { capitalize } from "lodash";
+  import axios from "axios";
   import Navigo from "navigo";
   let state = states
   let router = new Navigo(window.location.origin)
+  axios
+  .get("https://jsonplaceholder.typicode.com/posts")
+  .then(response => console.log(response.data));
   
   var root = document.querySelector("#root"); // this doesn't need to be queried every time we re-render
   function startApp(state) {
